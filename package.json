@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "babel-node ./server.js"
+    "start": "babel-node ./server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,11 @@
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5"
+    "@babel/preset-env": "^7.5.5",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-respond": "^1.0.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.0.6"
   }
 }
